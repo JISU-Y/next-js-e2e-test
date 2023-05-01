@@ -1,6 +1,10 @@
 import Head from "next/head"
 
 export default function Home() {
+  const handleButtonClick = () => {
+    console.log("do nothing")
+  }
+
   return (
     <>
       <Head>
@@ -9,7 +13,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>next app</main>
+      <main>
+        <h1>next app</h1>
+        <button onClick={handleButtonClick}>just button</button>
+      </main>
     </>
   )
 }

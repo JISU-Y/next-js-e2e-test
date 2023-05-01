@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders a heading 1`] = `
+<div>
+  <main>
+    <h1>
+      next app
+    </h1>
+    <button>
+      just button
+    </button>
+  </main>
+</div>
+`;
